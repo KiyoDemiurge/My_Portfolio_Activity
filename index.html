@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="download.html">DownloadCV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="hero-image">
+            <img src="IMG_20250929_190617_213.jpg" alt="Clark Lorris L. Nambatac" />
+        </div>
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1 style="display: flex; justify-content: center;">Hello, I'm  <span> Clark Lorris L. Nambatac</span></h1>
+            <p style="display: flex; justify-content: center;">I'm an Information System Student in Lyceum of Southern Luzon</p>
+            <a style="display: flex; justify-content: center; height: 10%; width: 100%;" href="project.html" class="btn">See My Work</a>
+        </div>
+        
+    </div>
+</header>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>A cool project built using HTML, CSS, and JS.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>A JavaScript-based interactive web app.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Responsive website design using modern CSS.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 MyPortfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="download.html">DownloadCV</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+  </nav>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+      <h2>Contact Me</h2>
+      <p style="display: flex; justify-content: center;">Feel free to contact me for any project inquiries or collaboration.</p>
+
+      <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>nambatac.clarklorris24@gmail.com</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <p>+63 910 656 8142</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Batangas City, Philippines</p>
+          </div>
+          <div class="info-item">
+    <i class="fab fa-facebook"></i>
+    <a href="https://www.facebook.com/clarklorris.labonitenambatac/" target="_blank">Facebook Profile</a>
+  </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <form id="contact-form">
+              <input type="text" id="name" placeholder="Your Name" required>
+              <input type="email" id="email" placeholder="Your Email" required>
+              <textarea id="message" placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+          </form>
+          <p id="form-message"></p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+      <p>© 2025 MyPortfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
